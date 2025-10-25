@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p {
+        font-family: Arial;
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+
+      .pickup-location-bar {
+        background-color: rgb(240, 240, 240);
+        border: none;
+        display: block;
+        height: 30px;
+        width: 275px;
+        margin-bottom: 5px;
+        padding-left: 15px;
+      }
+
+      .pickup-location-bar::-webkit-input-placeholder {
+        color: rgb(110, 110, 110);
+      }
+
+      .destination-bar {
+        background-color: rgb(240, 240, 240);
+        border: none;
+        display: block;
+        height: 30px;
+        width: 275px;
+        margin-bottom: 20px;
+        padding-left: 15px;
+        margin-bottom: 25px;
+      }
+
+      .destination-bar::-webkit-input-placeholder {
+        color: rgb(110, 110, 110)
+      }
+
+      .request-button {
+        background-color: black;
+        color: white;
+        padding-right: 17px;
+        padding-left: 17px;
+        border: none;
+        height: 32px;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+
+      .schedule-for-latter-button {
+        background-color: rgb(240, 240, 240);
+        padding-right: 17px;
+        padding-left: 17px;
+        border: none;
+        height: 35px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Request a ride now
+    </p>
+
+    <input class="pickup-location-bar" type="text" placeholder="Enter pickup location">
+    <input class="destination-bar" type="text" placeholder="Enter destination">
+
+    <button class="request-button">
+      Request now
+    </button>
+
+    <button class="schedule-for-latter-button">
+      Schedule for later
+    </button>
+  </body>
+</html>

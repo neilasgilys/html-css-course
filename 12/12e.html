@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p {
+        font-family: Arial;
+      }
+
+      .circle {
+        height: 25px;
+        width: 45px;
+        background-color: rgb(0, 100, 255);
+        color: white;
+        border-radius: 15px;
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        align-content: center;
+        font-family: Arial;
+      }
+
+      .second-circle {
+        height: 25px;
+        width: 35px;
+        background-color: rgb(0, 100, 255);
+        color: white;
+        border-radius: 15px;
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        align-content: center;
+        font-family: Arial;
+      }
+
+      .home {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 350px;
+        align-items: center;
+        margin-top: -5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: -10px;
+      }
+
+      .notifications {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 350px;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: -10px;
+      }
+
+      .messages {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 350px;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: -5px;
+      }
+
+      .border {
+        width: 385px;
+        border: solid;
+        border-radius: 10px;
+        border-width: 1px;
+        border-color: rgb(220, 220, 220);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="border">
+    <div class="home">
+      <p class="home-text">
+        Home
+      </p>
+
+      <div class="circle">14</div>
+      </div>
+
+      <div class="notifications">
+        <p class="notifications-text">
+          Notifications
+       </p>
+        <div class="second-circle">3</div>
+       </div>
+
+      <div class="messages">
+        <p class="messages-text">
+          Messages
+        </p>
+        <div class="second-circle">5</div>
+      </div>
+    </div>
+  </body>
+</html>

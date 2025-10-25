@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        font-family: Arial;
+      }
+
+      .inboxes-text {
+        color: gray;
+        font-size: 11px;
+        padding-bottom: 15px;
+        padding-top: 10px;
+        padding-left: 10px;
+      }
+
+      .inbox {
+        border: none;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .15);
+        width: 350px;
+        padding-bottom: 10px;
+      }
+
+      .inbox-container {
+        align-items: center;
+        margin-bottom: 15px;
+        cursor: pointer;
+      }
+
+      .profile-picture {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        object-fit: cover;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+
+      .second-profile-picture {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        object-fit: cover;
+        object-position: -15px;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+
+      .profile-picture-headline {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .email {
+        flex: 1;
+      }
+
+      .name-time {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .name {
+        font-weight: bold;
+        font-size: 15px;
+        padding-bottom: 3px;
+      }
+
+      .time {
+        color: gray;
+        font-size: 12px;
+        padding-right: 10px;
+      }
+
+      .headline {
+        font-weight: bold;
+        font-size: 13px;
+        padding-bottom: 3px;
+      }
+
+      .text {
+        color: gray;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="inbox">
+      <div class="inboxes-text">ALL INBOXES</div>
+      
+      <div class="inbox-container">
+      <div class="profile-picture-headline">
+        <img class="profile-picture"
+        src="big-dog-breeds_0.jpeg">
+        <div class="email">
+          <div class="name-time">
+            <div class="name">Chewy Promotions</div>
+            <div class="time">4:58 PM</div>
+          </div>
+      <div class="headline">Biggest sales of the year</div>
+      <div class="text">Hey there! We're writing to tell you about our...</div>
+      </div>
+      </div>
+      </div>
+
+        <div class="inbox-container">
+        <div class="profile-picture-headline">
+        <img class="profile-picture"
+        src="frame-8.png">
+        <div class="email">
+          <div class="name-time">
+            <div class="name">Best Buy</div>
+            <div class="time">12:32 PM</div>
+          </div>
+      <div class="headline">Your Best Buy eReceipt</div>
+      <div class="text">Thank you for shopping at Best Buy, here is...</div>
+      </div>
+      </div>
+      </div>
+
+      <div class="inbox-container">
+      <div class="profile-picture-headline">
+        <img class="second-profile-picture"
+        src="75552.jpg.avif">
+        <div class="email">
+          <div class="name-time">
+            <div class="name">Netflix</div>
+            <div class="time">9:00 AM</div>
+          </div>
+      <div class="headline">Here's what's coming soon to Netflix</div>
+      <div class="text">Brand new movies and shows. old fovorites...</div>
+      </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

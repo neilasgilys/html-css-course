@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        font-family: Arial;
+      }
+
+      .profile-picture {
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        object-fit: cover;
+        margin-right: 7px;
+        cursor: pointer;
+      }
+
+      .tweet-header {
+        display: flex;
+        flex-direction: row;
+        font-size: 14.5px;
+      }
+
+      .tweet-container {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .tweet-author {
+        margin-right: 5px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .tweet-author-handle {
+        color: gray;
+      }
+
+      .tweet {
+        margin-top: 5px;
+        width: 350px;
+        font-size: 15px;
+      }
+
+      .link-container {
+        border: solid;
+        width: 320px;
+        margin-top: 15px;
+        border-radius: 15px;
+        border-width: 2px;
+        border-color: rgb(200, 200, 200);
+        cursor: pointer;
+      }
+
+      .thumbnail-column {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(200, 200, 200);
+      }
+
+      .youtube-link {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        color: gray
+      }
+
+      .title {
+        margin-bottom: 15px;
+        line-height: 22px;
+      }
+
+      .link-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-width: 1px;
+        border-radius: 15px;
+        overflow: hidden;
+      }
+
+      .video-info-column {
+        flex: 1;
+        margin-left: 15px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tweet-container">
+      <div class="profile-picture-column">
+      <img class="profile-picture"
+        src="big-dog-breeds_0.jpeg">
+    </div>
+    <div class="tweet-column">
+      <div class="tweet-header">
+        <div class="tweet-author">supersimple.dev</div>
+        <div class="tweet-author-handle">@SuperSimpleDev</div>
+      </div>
+      <div class="tweet">
+        What is backend web development? A complete overview. New video is up!
+      </div>
+      <div class="link-container">
+        <div class="thumbnail-column"></div>
+        <div class="video-info-column">
+        <div class="youtube-link">youtube.com</div>
+        <div class="title">
+          Backend web development - a complete overview (2021)
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </body>
+</html>

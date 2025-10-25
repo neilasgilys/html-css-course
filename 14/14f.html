@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        height: 3000px;
+      }
+
+      div {
+        font-family: Arial;
+      }
+
+      .sidebar {
+        background-color: rgb(40, 40, 40);
+        position: fixed;
+        width: 80px;
+        bottom: 0;
+        top: 0;
+        left: 0;
+      }
+
+      .second-sidebar {
+        background-color: rgb(60, 60, 60);
+        position: fixed;
+        width: 190px;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        margin-left: 80px;
+      }
+
+      .info-plus {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 13px;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 12px;
+        align-items: center;
+      }
+
+      .channels {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+      }
+
+      .profile-picture {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        object-fit: cover;
+        margin-right: 7px;
+        cursor: pointer;
+        margin-bottom: 8px;
+      }
+
+      .hastag {
+        margin-top: 15px;
+        margin-left: 15px;
+        color: rgb(145, 145, 145);
+        word-spacing: 4px;
+        cursor: pointer;
+      }
+
+      .plus {
+        font-size: 25px;
+        color: rgb(145, 145, 145);
+        cursor: pointer;
+      }
+
+      .info {
+        font-weight: bold;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="channels">
+        <img class="profile-picture"
+        src="big-dog-breeds_0.jpeg">
+
+        <img class="profile-picture"
+        src="frame-8.png">
+
+        <img class="profile-picture"
+        src="giraffe-closeup.jpg.webp">
+      </div>
+
+      <div class="second-sidebar">
+        <div class="info-plus">
+          <div class="info">INFO</div>
+          <div class="plus">+</div>
+        </div>
+
+          <div class="hastag"># new-videos</div>
+          <div class="hastag"># updates</div>
+          <div class="hastag"># faq</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .first-name-bar {
+        width: 90px;
+        border: solid;
+        border-color: rgb(210, 210, 210);
+        border-radius: 5px;
+        border-width: 1px;
+        height: 25px;
+        padding-left: 10px;
+      }
+
+      .first-name-bar::-webkit-input-placeholder {
+        color: rgb(100, 100, 100);
+      }
+
+      .last-name-bar {
+        width: 90px;
+        border: solid;
+        border-color: rgb(210, 210, 210);
+        border-radius: 5px;
+        border-width: 1px;
+        height: 25px;
+        padding-left: 10px;
+      }
+
+      .last-name-bar::-webkit-input-placeholder {
+        color: rgb(100, 100, 100);
+      }
+
+      .email-bar {
+        width: 197px;
+        display: block;
+        border: solid;
+        border-color: rgb(210, 210, 210);
+        border-radius: 5px;
+        border-width: 1px;
+        height: 25px;
+        padding-left: 10px;
+        margin-top: 8px;
+      }
+
+      .email-bar::-webkit-input-placeholder {
+        color: rgb(100, 100, 100);
+      }
+
+      button {
+        width: 209px;
+        margin-top: 8px;
+        cursor: pointer;
+        line-height: 25px;
+        border: none;
+        background-color: rgb(0, 120, 255);
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="first-name-bar" type="text" placeholder="First name">
+    <input class="last-name-bar" type="text" placeholder="Last name">
+    <input class="email-bar" type="text" placeholder="Email">
+    <button>
+      Sign Up
+    </button>
+  </body>
+</html>
